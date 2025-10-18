@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">hr.g69 💖 | Sweet Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!-- ===== HEADER ===== -->
+<header>
+  <nav class="sweet-header">
+    <h1 class="logo">🍓 hr.g69</h1>
+
+    <ul class="nav-links">
+      <li><a href="#home" data-i18n="nav.home">Главная</a></li>
+      <li><a href="#skills" data-i18n="nav.skills">Навыки</a></li>
+      <li><a href="#certs" data-i18n="nav.certs">Достижения</a></li>
+      <li><a href="#portfolio" data-i18n="nav.portfolio">Проекты</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">Контакты</a></li>
+    </ul>
+
+    <div class="lang-wrapper">
+      <select id="languageSwitcher">
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+        <option value="kk">KZ</option>
+      </select>
+    </div>
+  </nav>
+</header>
+
+<!-- ===== ГЛАВНАЯ ===== -->
+<section id="home" class="section home">
+  <div class="container">
+    <div class="intro">
+      <h1 data-i18n="home.greeting">Привет! 💕</h1>
+      <h2 data-i18n="home.name">Я hr.g69</h2>
+      <p data-i18n="home.role">Frontend-разработчик, создающий сахарные и вдохновляющие сайты 🍰</p>
+      <a href="#portfolio" class="btn main-btn" data-i18n="home.btn">✨ Смотреть проекты</a>
+    </div>
+
+    <!-- 🩷 ОБО МНЕ -->
+    <div class="about-me">
+      <h3 data-i18n="about.title">Обо мне 💌</h3>
+      <p data-i18n="about.text">
+        Меня зовут Галина — я люблю превращать идеи в живые, яркие страницы.  
+        Код для меня — это не просто логика, а способ передать настроение и атмосферу.  
+        В каждом проекте я стараюсь добавить немного магии, тепла и эстетики ✨  
+        Люблю минимализм, мягкие цвета и аккуратные детали, которые делают сайт уютным.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== МОИ НАВЫКИ ===== -->
+<section id="skills" class="section skills">
+  <div class="container">
+    <h2 data-i18n="skills.title">Мои навыки 🌸</h2>
+    <p class="skills-intro" data-i18n="skills.desc">
+      Вот то, что помогает мне превращать идеи в живые и сладкие сайты 🍰
+    </p>
+
+    <div class="skills-groups">
+      <div class="skills-category">
+        <h3 data-i18n="skills.main.title">✨ Основные</h3>
+        <ul class="skills-list" id="mainSkills"></ul>
+      </div>
+
+      <div class="skills-category">
+        <h3 data-i18n="skills.tools.title">🧁 Инструменты</h3>
+        <ul class="skills-list" id="toolsSkills"></ul>
+      </div>
+
+      <div class="skills-category">
+        <h3 data-i18n="skills.extra.title">🍓 Дополнительно</h3>
+        <ul class="skills-list" id="extraSkills"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATES ===== -->
+<section id="certs" class="section certificates">
+  <h2 data-i18n="certs.title">🌸 Мои достижения</h2>
+  <div class="certs-grid">
+    <div class="cert">
+      <img src="images/course_440_certificate_ru 2_page-0001.jpg" alt="Создание сайтов с нуля" />
+      <p>Создание сайтов с нуля 💻</p>
+    </div>
+    <div class="cert">
+      <img src="images/Android-Разработчик приложений_page-0001.jpg" alt="Андроид-разработка" />
+      <p>Андроид-разработка 📱</p>
+    </div>
+    <div class="cert">
+      <img src="images/Java Start_page-0001.jpg" alt="Java Start" />
+      <p>Java Start ☕</p>
+    </div>
+    <div class="cert">
+      <img src="images/Копирайтинг_page-0001.jpg" alt="Копирайтинг" />
+      <p>Копирайтинг ✍️</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section id="portfolio" class="section portfolio">
+  <h2 data-i18n="portfolio.title">💖 Мои проекты</h2>
+  <p data-i18n="portfolio.subtitle">Маленькие творения с большой любовью к коду 🎀</p>
+
+  <div class="portfolio-layout">
+    <div class="projects-column">
+      <div class="project">
+        <h3 data-i18n="projects.rice.title">🍚 Сайт «Сколько раз взвесить рис»</h3>
+        <p data-i18n="projects.rice.desc">Считает количество взвешиваний риса — с заботой о точности и гармонии 🌾</p>
+        <a href="https://github.com/galina9g-121/ris/blob/main/44.html" target="_blank" class="btn" data-i18n="projects.rice.btn">🔗 GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3 data-i18n="projects.timer.title">⏰ Милый таймер</h3>
+        <p data-i18n="projects.timer.desc">Таймер, который нежно отсчитывает секунды, пока ты творишь чудеса ✨</p>
+        <a href="https://github.com/galina9g-121/timer" target="_blank" class="btn" data-i18n="projects.timer.btn">🔗 GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3 data-i18n="projects.books.title">📚 База для коллекций книг</h3>
+        <p data-i18n="projects.books.desc">Уютная база данных на Python + SQLite — порядок, комфорт и немного кофе ☕</p>
+        <a href="https://github.com/galina9g-121/books" target="_blank" class="btn" data-i18n="projects.books.btn">🔗 GitHub</a>
+      </div>
+    </div>
+
+    <div class="code-image">
+      <img src="images/code.jpg" alt="Код и уютная атмосфера" />
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section contact">
+  <h2 data-i18n="contact.title">Давай дружить 💌</h2>
+  <p data-i18n="contact.text">Пиши мне, если хочешь поработать, поболтать или просто отправить котика 🐾</p>
+  <div class="contacts">
+    <a href="https://t.me/wwww_100707" target="_blank">📨 Telegram</a>
+    <a href="https://www.instagram.com/hr.g69?igsh=MXZoaWoyd3M5bm94Yw==" target="_blank">📸 Instagram</a>
+    <a href="https://github.com/galina9g-121" target="_blank">💻 GitHub</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p data-i18n="footer.quote">«Кто сказал, что сахар — это слишком много? 🍰» — hr.g69</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

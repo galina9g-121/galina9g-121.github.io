@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "certs": "Achievements",
+    "portfolio": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hi there! 💕",
+    "name": "I’m hr.g69",
+    "role": "A frontend developer who creates sweet and inspiring websites 🍰",
+    "btn": "✨ View Projects"
+  },
+  "about": {
+    "title": "About Me 💌",
+    "text": "My name is Galina — I love turning ideas into lively, bright web pages. For me, code is not just logic, it’s a way to express emotion and atmosphere. In every project, I try to add a bit of magic, warmth, and aesthetics ✨ I adore minimalism, soft colors, and neat details that make a website cozy."
+  },
+  "skills": {
+    "title": "My Skills 🌸",
+    "desc": "These are the things that help me bring ideas to life and make them sweet and shining 🍰",
+    "main": {
+      "title": "✨ Core",
+      "items": ["HTML5", "CSS3", "JavaScript", "GitHub"]
+    },
+    "tools": {
+      "title": "🧁 Tools",
+      "items": ["VS Code", "Figma", "Node.js", "SQLite"]
+    },
+    "extra": {
+      "title": "🍓 Extras",
+      "items": ["Localization (i18n)", "UI/UX Design", "API Integration", "Animations"]
+    }
+  },
+  "certs": {
+    "title": "🌸 My Achievements"
+  },
+  "portfolio": {
+    "title": "💖 My Projects",
+    "subtitle": "Tiny creations made with big love for code 🎀"
+  },
+  "projects": {
+    "rice": {
+      "title": "🌾 Website 'How Many Times to Weigh Rice'",
+      "desc": "Counts the number of rice weighings — with care for accuracy and harmony 🌾",
+      "btn": "🔗 GitHub"
+    },
+    "timer": {
+      "title": "⏰ Lovely Timer",
+      "desc": "A cute timer that softly counts seconds while you create wonders ✨",
+      "btn": "🔗 GitHub"
+    },
+    "books": {
+      "title": "📚 Book Collection Database",
+      "desc": "A cozy Python + SQLite project for organizing books — order, comfort, and a bit of coffee ☕",
+      "btn": "🔗 GitHub"
+    }
+  },
+  "contact": {
+    "title": "Let’s Be Friends 💌",
+    "text": "Write to me if you want to collaborate, chat, or just send a cute cat 🐾"
+  },
+  "footer": {
+    "quote": "“Who said there’s such a thing as too much sugar? 🍰” — hr.g69"
+  }
+}
